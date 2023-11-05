@@ -1,0 +1,519 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    
+}
+header{
+    background-color: rgba(208, 243, 16, 0.926);
+    height: 50px;
+
+    
+}
+header h1{
+    font-family:'Lusitana', serif;
+    color:rgb(41, 86, 11);
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 7px;
+    font-size: 17px;
+    
+    
+}
+.capa{
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    background-color: rgb(13, 37, 253);
+}
+.capa::before{
+    content: '';
+    background-image: url("https://media.gettyimages.com/id/1157027353/es/foto/juego-de-la-banda-del-mariachi.jpg?s=612x612&w=0&k=20&c=LvmG41i50PNv_bB6Y6qtT0AI62WQty2L-jovLACIApc=");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+    
+    opacity: 0.60;
+
+    }
+    .capa h2{
+
+        font-size: 60px;
+        font-family: sans-serif;
+        
+        text-align: left;
+        position: relative;
+        color: rgb(250, 249, 251);
+        
+        
+
+    }
+    .capa p{
+        font-size: 20px;
+        font-family: sans-serif;
+        align-items: flex-end;
+        bottom: 50px;
+        flex: auto;
+        position: absolute;
+        text-align: center;
+        
+        color: rgb(250, 249, 251);
+        
+    }
+
+    .contactos{
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+        /*justify-content: center;*/
+        align-items: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        justify-content: space-around;
+        /*padding-left: 15%;
+        padding-right: 15%;*/
+        /*position: relative;*/
+    }
+    .llamar{
+
+        
+        
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 0%;
+        
+       
+    }
+       .llamar a {
+        
+    
+        
+    
+        text-align: center;
+        font-size: 30px;
+        color: aliceblue;
+        background-color: rgba(75, 206, 19, 0.922);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        text-decoration: none;
+        line-height: 80px;
+        /*ine-height: 80px;*/
+        box-shadow: 2px 2px 5px rgb(0,0, .5); 
+        
+       }
+        
+       .whatsapp{
+
+        
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-right: 0px;
+        
+        
+        
+       
+       
+
+    }
+       .whatsapp a {
+        
+    
+        
+        font:bolder;
+        text-align: center;
+        font-size: 20px;
+        color: aliceblue;
+        background-color: rgba(89, 7, 203, 0.922);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        text-decoration: none;
+        line-height: 80px;
+        /*ine-height: 80px;*/
+        box-shadow: 2px 2px 5px rgb(0,0, .5); 
+        
+       }
+       
+    
+    
+       
+   
+   
+
+
+     
+
+   aside{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: aquamarine;
+    text-align: center;
+    color: red;
+    font-size: 15px;
+   }
+
+   
+   #precio1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    padding-bottom: 20px;
+
+   }
+   #precio2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    padding-bottom: 20px;
+
+   }
+   
+   .contactos img{
+    display: block; margin: auto;
+    width: 80%;
+    height: 80%;
+    padding-bottom: 30px;
+    
+
+   }
+   
+   .facebook{
+
+        
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   
+}
+   .facebook a{
+    font-family: 'Lusitana', serif;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Roboto', sans-serif;
+
+    text-align: center;
+    font-size: 60px;
+    color: aliceblue;
+    background-color: #134eceeb;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-decoration: none;
+    line-height: 80px;
+    box-shadow: 2px 2px 5px rgb(0,0, .5); 
+    
+   }
+    .contenedor2{
+
+    background-color: coral;
+    padding-bottom: 40px;
+    }
+    .contenedor2 h2{
+
+        font-size: 30px;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+    .contenedor2 img{
+        display: block; margin: auto;
+        width: 80%;
+        height: 80%; 
+                
+    }
+    
+    
+        
+    
+    .container_footer{
+
+        background-color:darkorchid;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+        
+    } 
+    .container_footer p{
+
+        text-align: center;
+        color: aliceblue;
+    }
+    #arequipa{
+        padding-top: 10px;
+    }
+    
+    .contactos1{
+        
+        flex-direction:column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        padding-top: 25px;
+        justify-content: space-around;
+        /*padding-left: 15%;
+        padding-right: 15%;*/
+        /*position: relative;*/
+    }
+    .llamar1{
+
+        
+        
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        
+        
+       
+    }
+       .llamar1 a {
+        
+    
+        
+        
+        text-align: center;
+        font-size: 30px;
+        color: aliceblue;
+        background-color: rgba(75, 206, 19, 0.922);
+        width: 200px;
+        height: 50px;
+        border-radius: 10%;
+        text-decoration: none;
+        line-height: 50px;
+        /*ine-height: 80px;*/
+        box-shadow: 2px 2px 5px rgb(0,0, .5); 
+        
+       }
+        
+       .whatsapp1{
+
+        
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        
+        
+        
+        
+       
+       
+
+    }
+       .whatsapp1 a {
+        
+    
+        
+        font:bolder;
+        text-align: center;
+        font-size: 30px;
+        color: aliceblue;
+        background-color: rgba(89, 7, 203, 0.922);
+        width: 200px;
+        height: 50px;
+        border-radius: 10%;
+        text-decoration: none;
+        line-height: 50px;
+        /*ine-height: 80px;*/
+        box-shadow: 2px 2px 5px rgb(0,0, .5); 
+        
+       }
+
+
+    
+
+
+
+    /* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
+
+
+   
+    
+
+    
+    
+
+
+
+ @media only screen and (min-width: 769px) {
+
+   
+    header {
+        background-color: rgb(83, 223, 233);
+        height: 80px;
+    }
+    header h1{
+        font-family:'Lusitana', serif;
+        color: rgb(246, 246, 246);
+        text-align: left;
+        padding-top: 40px;
+        padding-left: 20px;
+        font-size: 35px;
+    }
+ 
+   
+    
+    .capa h2 {
+        
+        text-align: center;
+        font-family: 'Marck Script', cursive;
+        font-size: 130px;
+        color: #f47a08f0;
+        
+        
+    }
+    #p1{
+        text-align: center;
+        font-family: 'Marck Script', cursive;
+        font-size: 50px;
+        padding-top: 0px;
+        color: rgb(246, 246, 246); 
+        padding-bottom: 30px;
+
+    }  
+    img{
+     
+        display: block; margin: auto;
+        border-radius: 10px;
+        
+                
+        } 
+    section p{
+            font-size: 50px;
+            
+            text-align:center;
+            padding-bottom: 1px;
+            color: rgb(255, 255, 255);
+        
+        
+         }     
+    aside{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: aquamarine;
+        text-align: center;
+        color: red;
+        font-size: 22px;
+        width: 100%;
+        /*float: right;
+        height: 610px;*/
+       }
+    
+    aside p{
+
+        padding-top: 10px;
+    }
+    
+       #precio1{
+        text-align: center;
+        padding-top: 700px;
+        font-size: 80px;
+        padding-bottom: 80px;
+    
+       }
+    .contactos{
+
+        display: flex;
+        justify-content: center;
+    }
+
+       .contactos img{
+        display: block; margin: auto;
+        width: 300px;
+        height: 100px;
+        padding-bottom: 30px;
+        margin: 0px 50px;
+        
+        
+    
+       }
+       .facebook{
+
+        
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+       
+    }
+       .facebook a{
+        font-family: 'Lusitana', serif;
+        font-family: 'Marck Script', cursive;
+        font-family: 'Roboto', sans-serif;
+    
+        text-align: center;
+        font-size: 90px;
+        color: aliceblue;
+        background-color: #134eceeb;
+        
+        border-radius: 50%;
+        text-decoration: none;
+        line-height: 110px;
+        box-shadow: 2px 2px 5px rgb(0,0, .5); 
+        
+       }
+        .contenedor2{
+    
+        background-color: coral;
+        padding-bottom: 40px;
+        }
+        .contenedor2 h2{
+    
+            font-size: 70px;
+            padding-bottom: 20px;
+            padding-top: 30px;
+        }
+        .contenedor2 img{
+            display: block; margin: auto;
+            width: 30%;
+            height: 30%; 
+                    
+        }
+        
+        
+            
+        
+        .container_footer{
+    
+            background-color:darkorchid;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            
+            
+        } 
+        .container_footer p{
+    
+            text-align: center;
+            color: aliceblue;
+        }
+        #arequipa{
+            padding-top: 10px;
+        }
+
+
+
+ }
