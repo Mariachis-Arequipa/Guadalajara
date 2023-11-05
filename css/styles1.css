@@ -1,0 +1,23 @@
+
+div{
+    background-color: aqua;
+    
+}
+img{
+    
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    
+    margin: 10px 0px 10px 60px ;
+    border-radius: 50%;
+ 
+    
+}
+
+.cuadrado{
+
+    height: 300px;
+    width: 200px;
+    background-color: greenyellow;
+}
