@@ -246,7 +246,7 @@ header h1{
     }
     .galery1::before{
         content: '';
-        background-image: url("imagenes/matrimonio.jpg");
+        background-image: url("https://cdn0.bodas.com.mx/article-real-wedding/219/3_2/1280/jpg/757219.webp");
         align-items: center;
         background-repeat: no-repeat;
         background-size:cover;
