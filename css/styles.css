@@ -76,12 +76,14 @@ header h1{
         color: rgb(250, 249, 251);
         
     }
-
+.contactoAqp{
+    background-color: aliceblue;
+}
     .contactos{
         width: 100%;
         flex-direction: row;
         display: flex;
-        /*justify-content: center;*/
+        justify-content: center;
         align-items: center;
         padding-bottom: 20px;
         padding-top: 20px;
@@ -90,6 +92,7 @@ header h1{
         padding-right: 15%;*/
         /*position: relative;*/
     }
+    
     .llamar{
 
         
@@ -224,7 +227,7 @@ header h1{
     .contenedor2{
 
         padding-top: 0px;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
         
 
         
@@ -246,7 +249,7 @@ header h1{
     }
     .galery1::before{
         content: '';
-        background-image: url("https://cdn0.bodas.com.mx/article-real-wedding/219/3_2/1280/jpg/757219.webp");
+        background-image: url("imagenes/matrimonio.jpg");
         align-items: center;
         background-repeat: no-repeat;
         background-size:cover;
@@ -312,7 +315,7 @@ header h1{
         }
     .galery2::before{
             content: '';
-            background-image: url("https://github.com/Mariachis-Arequipa/Guadalajara/blob/main/imagenes/mami.jpg?raw=true");
+            background-image: url("imagenes/mami.jpg");
             align-items: center;
             background-repeat: no-repeat;
             background-size:cover;
@@ -703,7 +706,7 @@ header h1{
                         
                         
                 
-                    }
+           }
     .galery6 p{
         font-size: 12px;
         font-family: sans-serif;
@@ -716,8 +719,79 @@ header h1{
         padding-right: 15px;
                         
         color: rgb(250, 249, 251);
-                        
-        }       
+    
+    
+        } 
+
+
+    .galery7{
+        min-height: 100vh;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        position: relative;
+        border-radius: 10px;
+            
+        left: 0px;
+        right: 0px;
+        border-top: 10px;
+        background-color: rgb(49, 118, 6);
+    
+    }
+    .galery7::before{
+        content: '';
+        background-image: url("imagenes/matrimonio.jpg");
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        position: absolute;
+        border-radius: 10px;
+            
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        right: 10px;
+            
+            
+        opacity: 0.60;
+        
+            }
+    .galery7 h2{
+        
+        font-size: 40px;
+        font-family: sans-serif;
+        text-align: center;
+        text-align: left;
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: aliceblue;
+        font: bold;
+        font: italic;
+                
+                
+        
+            }
+    .galery7 p{
+        font-size: 20px;
+        font-family: sans-serif;
+        align-items: flex-end;
+        bottom: 50px;
+        flex: auto;
+        position: absolute;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        font: bold;
+        color:aliceblue;
+    
+                
+    }
+
+
+
+    
     .container_footer{
 
         background-color:darkorchid;
