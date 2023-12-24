@@ -4,6 +4,7 @@
     padding: 0px;
     box-sizing: content-box;
     
+    
 }
 header{
     background-color: rgba(208, 243, 16, 0.926);
@@ -203,6 +204,7 @@ header h1{
     padding-top: 20px;
     font-size: 50px;
     padding-bottom: 20px;
+    color: black;
 
    }
    
