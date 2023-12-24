@@ -249,7 +249,7 @@ header h1{
     }
     .galery1::before{
         content: '';
-        background-image: url("imagenes/matrimonio.jpg");
+        background-image: url("https://github.com/Mariachis-Arequipa/Guadalajara/blob/main/imagenes/matrimonio.jpg?raw=true");
         align-items: center;
         background-repeat: no-repeat;
         background-size:cover;
@@ -315,7 +315,7 @@ header h1{
         }
     .galery2::before{
             content: '';
-            background-image: url("imagenes/mami.jpg");
+            background-image: url("https://github.com/Mariachis-Arequipa/Guadalajara/blob/main/imagenes/mami.jpg?raw=true");
             align-items: center;
             background-repeat: no-repeat;
             background-size:cover;
@@ -380,7 +380,7 @@ header h1{
     }
     .galery3::before{
         content: '';
-        background-image: url("imagenes/reconciliacion.jpeg");
+        background-image: url("https://github.com/Mariachis-Arequipa/Guadalajara/blob/main/imagenes/pedida_de_mano.jpeg?raw=true");
         align-items: center;
         background-repeat: no-repeat;
         background-size:cover;
@@ -397,20 +397,24 @@ header h1{
         opacity: 0.60;
     
         }
-    .galery3 h2{
+     .galery3 h2{
     
-            font-size: 20px;
-            font-family: sans-serif;
-            text-align: end;
-            text-align: left;
-            position: relative;
-            color: rgb(250, 249, 251);
+        font-size: 40px;
+        font-family: sans-serif;
+        text-align: center;
+        text-align: left;
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: aliceblue;
+        font: bold;
+        font: italic;
             
             
     
         }
     .galery3 p{
-            font-size: 12px;
+            font-size: 20px;
             font-family: sans-serif;
             align-items: flex-end;
             bottom: 50px;
@@ -419,12 +423,14 @@ header h1{
             text-align: center;
             padding-left: 15px;
             padding-right: 15px;
-            
-            color: rgb(250, 249, 251);
+            font: bold;
+            color:aliceblue;
+
             
         }
+    
         
-     .galery3{
+     .galery4{
         min-height: 100vh;
         display: flex;
         justify-content:center;
@@ -438,9 +444,9 @@ header h1{
         background-color: rgb(139, 238, 77);
 
     }
-    .galery3::before{
+    .galery4::before{
         content: '';
-        background-image: url("imagenes/reconciliacion.jpeg");
+        background-image: url("https://github.com/Mariachis-Arequipa/Guadalajara/blob/main/imagenes/quincea%C3%B1era9.jpg?raw=true");
         align-items: center;
         background-repeat: no-repeat;
         background-size:cover;
@@ -457,81 +463,24 @@ header h1{
         opacity: 0.60;
     
         }
-    .galery3 h2{
+    .galery4 h2{
     
-            font-size: 20px;
-            font-family: sans-serif;
-            text-align: end;
-            text-align: left;
-            position: relative;
-            color: rgb(250, 249, 251);
-            
-            
-    
-        }
-    .galery3 p{
-            font-size: 12px;
-            font-family: sans-serif;
-            align-items: flex-end;
-            bottom: 50px;
-            flex: auto;
-            position: absolute;
-            text-align: center;
-            padding-left: 15px;
-            padding-right: 15px;
-            
-            color: rgb(250, 249, 251);
-            
-        }
-
-
-    .galery3{
-        min-height: 100vh;
-        display: flex;
-        justify-content:center;
-        align-items:center;
+        font-size: 40px;
+        font-family: sans-serif;
+        text-align: center;
+        text-align: left;
         position: relative;
-        border-radius: 10px;
-        
-        left: 0px;
-        right: 0px;
-        border-top: 10px;
-        background-color: rgb(139, 238, 77);
-
-    }
-    .galery3::before{
-        content: '';
-        background-image: url("imagenes/reconciliacion.jpeg");
-        align-items: center;
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position: center;
-        position: absolute;
-        border-radius: 10px;
-        
-        top: 10px;
-        left: 10px;
-        bottom: 10px;
-        right: 10px;
-        
-        
-        opacity: 0.60;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: aliceblue;
+        font: bold;
+        font: italic;
+            
+            
     
         }
-    .galery3 h2{
-    
+    .galery4 p{
             font-size: 20px;
-            font-family: sans-serif;
-            text-align: end;
-            text-align: left;
-            position: relative;
-            color: rgb(250, 249, 251);
-            
-            
-    
-        }
-    .galery3 p{
-            font-size: 12px;
             font-family: sans-serif;
             align-items: flex-end;
             bottom: 50px;
@@ -540,11 +489,13 @@ header h1{
             text-align: center;
             padding-left: 15px;
             padding-right: 15px;
-            
-            color: rgb(250, 249, 251);
+            font: bold;
+            color:aliceblue;
+
             
         }
-    .galery4{
+    
+    .galery5{
             min-height: 100vh;
             display: flex;
             justify-content:center;
@@ -558,7 +509,7 @@ header h1{
             background-color: rgb(139, 238, 77);
     
         }
-    .galery4::before{
+    .galery5::before{
             content: '';
             background-image: url("imagenes/quinceañera9.jpg");
             align-items: center;
@@ -577,7 +528,7 @@ header h1{
             opacity: 0.60;
         
             }
-    .galery4 h2{
+    .galery5 h2{
         
         font-size: 20px;
         font-family: sans-serif;
@@ -589,7 +540,7 @@ header h1{
                 
         
             }
-    .galery4 p{
+    .galery5 p{
                 font-size: 12px;
                 font-family: sans-serif;
                 align-items: flex-end;
@@ -603,7 +554,7 @@ header h1{
                 color: rgb(250, 249, 251);
                 
             } 
-    .galery5{
+    .galery6{
                 min-height: 100vh;
                 display: flex;
                 justify-content:center;
@@ -617,7 +568,7 @@ header h1{
                 background-color: rgb(139, 238, 77);
         
             }
-    .galery5::before{
+    .galery6::before{
         content: '';
         background-image: url("imagenes/reconciliaciones.jpg");
         align-items: center;
@@ -636,7 +587,7 @@ header h1{
         opacity: 0.60;
             
         }
-    .galery5 h2{
+    .galery6 h2{
             
         font-size: 20px;
         font-family: sans-serif;
@@ -648,7 +599,7 @@ header h1{
                     
             
                 }
-    .galery5 p{
+    .galery6 p{
         font-size: 12px;
         font-family: sans-serif;
         align-items: flex-end;
@@ -662,7 +613,7 @@ header h1{
         color: rgb(250, 249, 251);
                     
                 } 
-    .galery6{
+    .galery7{
         min-height: 100vh;
         display: flex;
         justify-content:center;
@@ -676,7 +627,7 @@ header h1{
         background-color: rgb(139, 238, 77);
             
         }
-    .galery6::before{
+    .galery7::before{
         content: '';
         background-image: url("imagenes/papa.jpeg");
         align-items: center;
@@ -695,7 +646,7 @@ header h1{
         opacity: 0.60;
                 
             }
-    .galery6 h2{
+    .galery7 h2{
                 
         font-size: 20px;
         font-family: sans-serif;
@@ -707,7 +658,7 @@ header h1{
                         
                 
            }
-    .galery6 p{
+    .galery7 p{
         font-size: 12px;
         font-family: sans-serif;
         align-items: flex-end;
@@ -724,7 +675,7 @@ header h1{
         } 
 
 
-    .galery7{
+    .galery8{
         min-height: 100vh;
         display: flex;
         justify-content:center;
@@ -738,7 +689,7 @@ header h1{
         background-color: rgb(49, 118, 6);
     
     }
-    .galery7::before{
+    .galery8::before{
         content: '';
         background-image: url("imagenes/matrimonio.jpg");
         align-items: center;
@@ -757,7 +708,7 @@ header h1{
         opacity: 0.60;
         
             }
-    .galery7 h2{
+    .galery8 h2{
         
         font-size: 40px;
         font-family: sans-serif;
@@ -773,7 +724,7 @@ header h1{
                 
         
             }
-    .galery7 p{
+    .galery8 p{
         font-size: 20px;
         font-family: sans-serif;
         align-items: flex-end;
