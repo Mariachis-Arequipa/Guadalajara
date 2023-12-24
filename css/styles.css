@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,16 +8,22 @@
 header{
     background-color: rgba(208, 243, 16, 0.926);
     height: 50px;
-
+    display: flex;
     
 }
+header img{
+    padding-top: 2px;
+    padding-left: 50px;
+}
+
 header h1{
     font-family:'Lusitana', serif;
-    color:rgb(41, 86, 11);
+    color:rgb(145, 23, 175);
     text-align: left;
     padding-top: 25px;
     padding-left: 7px;
     font-size: 17px;
+    font: bolder;
     
     
 }
@@ -138,111 +145,579 @@ header h1{
         
         font:bolder;
         text-align: center;
-        font-size: 20px;
+        font-size: 30px;
         color: aliceblue;
-        background-color: rgba(89, 7, 203, 0.922);
+        background-color: rgba(104, 15, 173, 0.885);
         width: 80px;
         height: 80px;
         border-radius: 50%;
         text-decoration: none;
-        line-height: 80px;
-        /*ine-height: 80px;*/
+        line-height: 50px;
+        
         box-shadow: 2px 2px 5px rgb(0,0, .5); 
         
        }
-       
+       .whatsapp p{
+        text-align: center;
+        font-size: 12px;
+        line-height: 45px;
+        padding-top: 1px;
+       }
     
-    
+       .facebook{
+
+        
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+        padding-top: 20px;
        
+    }
+       .facebook a{
+        font-family: 'Lusitana', serif;
+        font-family: 'Marck Script', cursive;
+        font-family: 'Roboto', sans-serif;
+    
+        text-align: center;
+        font-size: 60px;
+        color: aliceblue;
+        background-color: #134eceeb;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        text-decoration: none;
+        line-height: 80px;
+        box-shadow: 2px 2px 5px rgb(0,0, .5); 
+        
+       }
+
+
    
-   
-
-
-     
-
-   aside{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: aquamarine;
-    text-align: center;
-    color: red;
-    font-size: 15px;
-   }
-
-   
-   #precio1{
+   #precio{
     text-align: center;
     padding-top: 20px;
     font-size: 50px;
     padding-bottom: 20px;
 
    }
-   #precio2{
+   
+   
+   
+   .amenizamos{
+    background-color: orange;
     text-align: center;
-    padding-top: 20px;
-    font-size: 50px;
-    padding-bottom: 20px;
-
-   }
-   
-   .contactos img{
-    display: block; margin: auto;
-    width: 80%;
-    height: 80%;
-    padding-bottom: 30px;
-    
-
-   }
-   
-   .facebook{
-
-        
-        
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
-   
-}
-   .facebook a{
-    font-family: 'Lusitana', serif;
-    font-family: 'Marck Script', cursive;
-    font-family: 'Roboto', sans-serif;
-
-    text-align: center;
-    font-size: 60px;
-    color: aliceblue;
-    background-color: #134eceeb;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    text-decoration: none;
-    line-height: 80px;
-    box-shadow: 2px 2px 5px rgb(0,0, .5); 
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
     
    }
+   .amenizamos h3{
+    font-family:'Lusitana', serif;
+    font: bold;
+    color:rgb(255, 255, 255);
+    padding-top: 10px;
+    font-size: 29px;
+   }
+   
     .contenedor2{
 
-    background-color: coral;
-    padding-bottom: 40px;
-    }
-    .contenedor2 h2{
-
-        font-size: 30px;
-        padding-bottom: 20px;
-        padding-top: 30px;
-    }
-    .contenedor2 img{
-        display: block; margin: auto;
-        width: 80%;
-        height: 80%; 
-                
-    }
-    
-    
+        padding-top: 0px;
+        padding-bottom: 50px;
         
+
+        
+    }
     
+    .galery1{
+        min-height: 100vh;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        position: relative;
+        border-radius: 10px;
+        
+        left: 0px;
+        right: 0px;
+        border-top: 10px;
+        background-color: rgb(49, 118, 6);
+
+    }
+    .galery1::before{
+        content: '';
+        background-image: url("imagenes/matrimonio.jpg");
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        position: absolute;
+        border-radius: 10px;
+        
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        right: 10px;
+        
+        
+        opacity: 0.60;
+    
+        }
+    .galery1 h2{
+    
+        font-size: 40px;
+        font-family: sans-serif;
+        text-align: center;
+        text-align: left;
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: aliceblue;
+        font: bold;
+        font: italic;
+            
+            
+    
+        }
+    .galery1 p{
+            font-size: 20px;
+            font-family: sans-serif;
+            align-items: flex-end;
+            bottom: 50px;
+            flex: auto;
+            position: absolute;
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+            font: bold;
+            color:aliceblue;
+
+            
+        }
+    
+    
+    .galery2{
+            min-height: 100vh;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            position: relative;
+            border-radius: 10px;
+            
+            left: 0px;
+            right: 0px;
+            border-top: 10px;
+            background-color: rgb(96, 9, 125);
+    
+        }
+    .galery2::before{
+            content: '';
+            background-image: url("imagenes/mami.jpg");
+            align-items: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center;
+            position: absolute;
+            border-radius: 10px;
+            padding-top: 10px;
+            top: 10px;
+            left: 10px;
+            bottom: 10px;
+            right: 10px;
+            
+            
+            opacity: 0.60;
+        
+            }
+    .galery2 h2{
+        
+            font-size: 40px;
+            font-family: sans-serif;
+            text-align: end;
+            text-align: left;
+            position: relative;
+            color: aliceblue;
+            padding-left: 15px;
+            padding-right: 15px;
+            font: bold;
+            font: italic;
+                
+                
+        
+            }
+    .galery2 p{
+                font-size: 20px;
+                font-family: sans-serif;
+                align-items: flex-end;
+                bottom: 50px;
+                flex: auto;
+                position: absolute;
+                text-align: center;
+                padding-left: 15px;
+                padding-right: 15px;
+                font: bold;
+                
+                color: aliceblue;
+                
+            }
+        
+    .galery3{
+        min-height: 100vh;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        position: relative;
+        border-radius: 10px;
+        
+        left: 0px;
+        right: 0px;
+        border-top: 10px;
+        background-color: rgb(139, 238, 77);
+
+    }
+    .galery3::before{
+        content: '';
+        background-image: url("imagenes/reconciliacion.jpeg");
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        position: absolute;
+        border-radius: 10px;
+        
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        right: 10px;
+        
+        
+        opacity: 0.60;
+    
+        }
+    .galery3 h2{
+    
+            font-size: 20px;
+            font-family: sans-serif;
+            text-align: end;
+            text-align: left;
+            position: relative;
+            color: rgb(250, 249, 251);
+            
+            
+    
+        }
+    .galery3 p{
+            font-size: 12px;
+            font-family: sans-serif;
+            align-items: flex-end;
+            bottom: 50px;
+            flex: auto;
+            position: absolute;
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+            
+            color: rgb(250, 249, 251);
+            
+        }
+        
+     .galery3{
+        min-height: 100vh;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        position: relative;
+        border-radius: 10px;
+        
+        left: 0px;
+        right: 0px;
+        border-top: 10px;
+        background-color: rgb(139, 238, 77);
+
+    }
+    .galery3::before{
+        content: '';
+        background-image: url("imagenes/reconciliacion.jpeg");
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        position: absolute;
+        border-radius: 10px;
+        
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        right: 10px;
+        
+        
+        opacity: 0.60;
+    
+        }
+    .galery3 h2{
+    
+            font-size: 20px;
+            font-family: sans-serif;
+            text-align: end;
+            text-align: left;
+            position: relative;
+            color: rgb(250, 249, 251);
+            
+            
+    
+        }
+    .galery3 p{
+            font-size: 12px;
+            font-family: sans-serif;
+            align-items: flex-end;
+            bottom: 50px;
+            flex: auto;
+            position: absolute;
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+            
+            color: rgb(250, 249, 251);
+            
+        }
+
+
+    .galery3{
+        min-height: 100vh;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        position: relative;
+        border-radius: 10px;
+        
+        left: 0px;
+        right: 0px;
+        border-top: 10px;
+        background-color: rgb(139, 238, 77);
+
+    }
+    .galery3::before{
+        content: '';
+        background-image: url("imagenes/reconciliacion.jpeg");
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        position: absolute;
+        border-radius: 10px;
+        
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        right: 10px;
+        
+        
+        opacity: 0.60;
+    
+        }
+    .galery3 h2{
+    
+            font-size: 20px;
+            font-family: sans-serif;
+            text-align: end;
+            text-align: left;
+            position: relative;
+            color: rgb(250, 249, 251);
+            
+            
+    
+        }
+    .galery3 p{
+            font-size: 12px;
+            font-family: sans-serif;
+            align-items: flex-end;
+            bottom: 50px;
+            flex: auto;
+            position: absolute;
+            text-align: center;
+            padding-left: 15px;
+            padding-right: 15px;
+            
+            color: rgb(250, 249, 251);
+            
+        }
+    .galery4{
+            min-height: 100vh;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            position: relative;
+            border-radius: 10px;
+            
+            left: 0px;
+            right: 0px;
+            border-top: 10px;
+            background-color: rgb(139, 238, 77);
+    
+        }
+    .galery4::before{
+            content: '';
+            background-image: url("imagenes/quinceañera9.jpg");
+            align-items: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center;
+            position: absolute;
+            border-radius: 10px;
+            
+            top: 10px;
+            left: 10px;
+            bottom: 10px;
+            right: 10px;
+            
+            
+            opacity: 0.60;
+        
+            }
+    .galery4 h2{
+        
+        font-size: 20px;
+        font-family: sans-serif;
+        text-align: end;
+        text-align: left;
+        position: relative;
+        color: rgb(250, 249, 251);
+                
+                
+        
+            }
+    .galery4 p{
+                font-size: 12px;
+                font-family: sans-serif;
+                align-items: flex-end;
+                bottom: 50px;
+                flex: auto;
+                position: absolute;
+                text-align: center;
+                padding-left: 15px;
+                padding-right: 15px;
+                
+                color: rgb(250, 249, 251);
+                
+            } 
+    .galery5{
+                min-height: 100vh;
+                display: flex;
+                justify-content:center;
+                align-items:center;
+                position: relative;
+                border-radius: 10px;
+                
+                left: 0px;
+                right: 0px;
+                border-top: 10px;
+                background-color: rgb(139, 238, 77);
+        
+            }
+    .galery5::before{
+        content: '';
+        background-image: url("imagenes/reconciliaciones.jpg");
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        position: absolute;
+        border-radius: 10px;
+                
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        right: 10px;
+                
+                
+        opacity: 0.60;
+            
+        }
+    .galery5 h2{
+            
+        font-size: 20px;
+        font-family: sans-serif;
+        text-align: end;
+        text-align: left;
+        position: relative;
+        color: rgb(250, 249, 251);
+                    
+                    
+            
+                }
+    .galery5 p{
+        font-size: 12px;
+        font-family: sans-serif;
+        align-items: flex-end;
+        bottom: 50px;
+        flex: auto;
+        position: absolute;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+                    
+        color: rgb(250, 249, 251);
+                    
+                } 
+    .galery6{
+        min-height: 100vh;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        position: relative;
+        border-radius: 10px;
+                    
+        left: 0px;
+        right: 0px;
+        border-top: 10px;
+        background-color: rgb(139, 238, 77);
+            
+        }
+    .galery6::before{
+        content: '';
+        background-image: url("imagenes/papa.jpeg");
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        position: absolute;
+        border-radius: 10px;
+                    
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        right: 10px;
+                    
+                    
+        opacity: 0.60;
+                
+            }
+    .galery6 h2{
+                
+        font-size: 20px;
+        font-family: sans-serif;
+        text-align: end;
+        text-align: left;
+        position: relative;
+        color: rgb(250, 249, 251);
+                        
+                        
+                
+                    }
+    .galery6 p{
+        font-size: 12px;
+        font-family: sans-serif;
+        align-items: flex-end;
+        bottom: 50px;
+        flex: auto;
+        position: absolute;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+                        
+        color: rgb(250, 249, 251);
+                        
+        }       
     .container_footer{
 
         background-color:darkorchid;
@@ -260,86 +735,7 @@ header h1{
         padding-top: 10px;
     }
     
-    .contactos1{
-        
-        flex-direction:column;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 30px;
-        padding-top: 25px;
-        justify-content: space-around;
-        /*padding-left: 15%;
-        padding-right: 15%;*/
-        /*position: relative;*/
-    }
-    .llamar1{
-
-        
-        
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        padding-bottom: 25px;
-        padding-top: 25px;
-        
-        
-       
-    }
-       .llamar1 a {
-        
     
-        
-        
-        text-align: center;
-        font-size: 30px;
-        color: aliceblue;
-        background-color: rgba(75, 206, 19, 0.922);
-        width: 200px;
-        height: 50px;
-        border-radius: 10%;
-        text-decoration: none;
-        line-height: 50px;
-        /*ine-height: 80px;*/
-        box-shadow: 2px 2px 5px rgb(0,0, .5); 
-        
-       }
-        
-       .whatsapp1{
-
-        
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 30px;
-        padding-top: 30px;
-        
-        
-        
-        
-       
-       
-
-    }
-       .whatsapp1 a {
-        
-    
-        
-        font:bolder;
-        text-align: center;
-        font-size: 30px;
-        color: aliceblue;
-        background-color: rgba(89, 7, 203, 0.922);
-        width: 200px;
-        height: 50px;
-        border-radius: 10%;
-        text-decoration: none;
-        line-height: 50px;
-        /*ine-height: 80px;*/
-        box-shadow: 2px 2px 5px rgb(0,0, .5); 
-        
-       }
 
 
     
