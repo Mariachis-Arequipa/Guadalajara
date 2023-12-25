@@ -80,6 +80,14 @@ header h1{
 .contactoAqp{
     background-color: rgb(255, 255, 255);
 }
+ #precio{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: black;
+
+   }
     .contactos{
         width: 100%;
         flex-direction: row;
@@ -199,14 +207,7 @@ header h1{
 
 
    
-   #precio{
-    text-align: center;
-    padding-top: 20px;
-    font-size: 50px;
-    padding-bottom: 20px;
-    color: black;
-
-   }
+  
    
    
    
