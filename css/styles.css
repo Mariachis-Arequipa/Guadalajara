@@ -12,10 +12,7 @@ header{
     display: flex;
     
 }
-header img{
-    padding-top: 2px;
-    padding-left: 50px;
-}
+
 
 header h1{
     font-family:'Lusitana', serif;
