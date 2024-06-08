@@ -55,8 +55,12 @@ header h1{
 
 
 .capa h2 {
-    margin: 0;
-    font-size: 3em;
+    font-size: 60px;
+    font-family: sans-serif;  
+    text-align: left;
+    position: relative;
+    color: rgb(250, 249, 251);
+        
 }
 .capa p{
         font-size: 20px;
