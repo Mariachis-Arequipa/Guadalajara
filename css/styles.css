@@ -38,7 +38,7 @@ header h1{
 }
 .capa::before{
     content: '';
-    background-image: url("https://media.gettyimages.com/id/1157027353/es/foto/juego-de-la-banda-del-mariachi.jpg?s=612x612&w=0&k=20&c=LvmG41i50PNv_bB6Y6qtT0AI62WQty2L-jovLACIApc=");
+    background-image: url("imagenes/guadalajara.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
