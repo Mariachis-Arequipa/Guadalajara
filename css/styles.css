@@ -54,10 +54,11 @@ header h1{
 }
 
 
-.capa h2 {
+.capa #nombreMariachi {
     font-size: 60px;
     font-family: sans-serif;  
     text-align: left;
+    top:30%;
     position: relative;
     color: rgb(250, 249, 251);
         
