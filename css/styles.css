@@ -2,17 +2,15 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: content-box;
-    
-    
+    box-sizing: content-box;   
 }
+
 header{
     background-color: rgba(208, 243, 16, 0.926);
     height: 50px;
     display: flex;
     
 }
-
 
 header h1{
     font-family:'Lusitana', serif;
@@ -21,10 +19,9 @@ header h1{
     padding-top: 25px;
     padding-left: 7px;
     font-size: 17px;
-    font: bolder;
-    
-    
+    font: bolder;    
 }
+
 .contenedor {
     position: relative;
     width: 100%;
@@ -48,23 +45,21 @@ header h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: white;
+    flex-direction: column;   
 }
 
-
 .capa #nombreMariachi {
-    font-size: 60px;
-    font-family: sans-serif;  
+    font-size: 70px;
+    font-family: 'sans-serif';  
     text-align: left;
-    top:30%;
+    top:45%;
     position: relative;
     color: rgb(250, 249, 251);
         
 }
+
 .capa p{
-        font-size: 20px;
+        font-size: 23px;
         font-family: sans-serif;
         align-items: flex-end;
         bottom: 50px;
@@ -75,19 +70,20 @@ header h1{
         color: rgb(250, 249, 251);
         
     }
+
 .contactoAqp{
-    background-color: rgb(255, 255, 255);
+    background-color: #fffded;
 }
- #precio{
+
+#precio{
     text-align: center;
     padding-top: 20px;
     font-size: 50px;
     padding-bottom: 20px;
-    color: black;
-     background-color: rgb(255, 255, 255);
-
+    color: black;    
    }
-    .contactos{
+
+.contactos{
         width: 100%;
         flex-direction: row;
         display: flex;
@@ -96,14 +92,9 @@ header h1{
         padding-bottom: 20px;
         padding-top: 20px;
         justify-content: space-around;
-        /*padding-left: 15%;
-        padding-right: 15%;*/
-        /*position: relative;*/
-    }
+}
     
-    .llamar{
-
-        
+.llamar{
         
         display: flex;
         justify-content:center;
@@ -111,14 +102,10 @@ header h1{
         padding-bottom: 20px;
         padding-top: 20px;
         padding-left: 0%;
-        
-       
-    }
-       .llamar a {
-        
-    
-        
-    
+               
+}
+.llamar a {
+            
         text-align: center;
         font-size: 30px;
         color: aliceblue;
@@ -128,15 +115,12 @@ header h1{
         border-radius: 50%;
         text-decoration: none;
         line-height: 80px;
-        /*ine-height: 80px;*/
         box-shadow: 2px 2px 5px rgb(0,0, .5); 
         
-       }
+}
         
-       .whatsapp{
-
-        
-        
+.whatsapp{
+    
         display: flex;
         justify-content: center;
         align-items: center;
@@ -144,16 +128,9 @@ header h1{
         padding-top: 20px;
         padding-right: 0px;
         
-        
-        
-       
-       
-
     }
-       .whatsapp a {
-        
-    
-        
+.whatsapp a {
+               
         font:bolder;
         text-align: center;
         font-size: 30px;
@@ -167,26 +144,24 @@ header h1{
         
         box-shadow: 2px 2px 5px rgb(0,0, .5); 
         
-       }
-       .whatsapp p{
+}
+.whatsapp p{
         text-align: center;
         font-size: 12px;
         line-height: 45px;
         padding-top: 1px;
        }
     
-       .facebook{
-
-        
-        
+.facebook{
+            
         display: flex;
         justify-content: center;
         align-items: center;
         padding-bottom: 40px;
         padding-top: 20px;
        
-    }
-       .facebook a{
+}
+.facebook a{
         font-family: 'Lusitana', serif;
         font-family: 'Marck Script', cursive;
         font-family: 'Roboto', sans-serif;
@@ -202,23 +177,18 @@ header h1{
         line-height: 80px;
         box-shadow: 2px 2px 5px rgb(0,0, .5); 
         
-       }
-
-
+}
    
-  
-   
-   
-   
-   .amenizamos{
+.amenizamos{
     background-color: orange;
     text-align: center;
     width: 100%;
     height: 50px;
     border-radius: 10px;
     
-   }
-   #arequipa{
+}
+
+#arequipa{
     font-family:'Lusitana', serif;
     font: bold;
     color:rgb(255, 255, 255);
@@ -226,65 +196,72 @@ header h1{
     font-size: 29px;
    }
    
-    .contenedor2{
-
-        padding-top: 0px;
-        padding-bottom: 0px;
-        
-
-        
+    
+.contenedor2{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden; 
+        margin-bottom: 3%; 
+        border-radius: 2%;
+        border-color: blue;
+}
+.contenedor2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     
-    .galery1{
-        min-height: 100vh;
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        position: relative;
-        border-radius: 10px;
-        
-        left: 0px;
-        right: 0px;
-        border-top: 10px;
-        background-color: rgb(49, 118, 6);
-
-    }
-    .galery1::before{
-        content: '';
-        background-image: url("https://github.com/Mariachis-Arequipa/Guadalajara/blob/main/imagenes/matrimonio.jpg?raw=true");
-        align-items: center;
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position: center;
+.capa2, .capa3, .capa4, .capa5, .capa6,.capa7,.capa8,.capa9 {
         position: absolute;
-        border-radius: 10px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         
-        top: 10px;
-        left: 10px;
-        bottom: 10px;
-        right: 10px;
         
-        
-        opacity: 0.60;
-    
+    }
+
+    .capa2{
+            background-color: rgba(179, 24, 6, 0.5); 
         }
-    .galery1 h2{
-    
+    .capa3{
+            background-color: rgba(111, 36, 108, 0.5); 
+        }
+    .capa4{
+            background-color: rgba(119, 12, 123, 0.5); 
+        }
+    .capa5{
+            background-color: rgba(45, 48, 193, 0.5); 
+        }
+    .capa6{
+            background-color: rgba(93, 104, 12, 0.5); 
+    }
+    .capa7{
+            background-color: rgba(173, 20, 190, 0.5); 
+    }
+    .capa8{
+            background-color: rgba(176, 93, 21, 0.5); 
+    }
+    .capa9{
+            background-color: rgba(203, 60, 17, 0.5); 
+    }
+
+    .h2Comun  {
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'sans-serif';  
         text-align: center;
-        text-align: left;
+        top:20%;
         position: relative;
-        padding-left: 15px;
-        padding-right: 15px;
-        color: aliceblue;
-        font: bold;
-        font: italic;
+        color: rgb(250, 249, 251);
             
-            
-    
-        }
-    .galery1 p{
+    }
+
+    .pComun{
             font-size: 20px;
             font-family: sans-serif;
             align-items: flex-end;
@@ -292,428 +269,23 @@ header h1{
             flex: auto;
             position: absolute;
             text-align: center;
-            padding-left: 15px;
-            padding-right: 15px;
-            font: bold;
-            color:aliceblue;
-
+            color: rgb(250, 249, 251);
             
         }
-    
-    
-    .galery2{
-            min-height: 100vh;
-            display: flex;
-            justify-content:center;
-            align-items:center;
-            position: relative;
-            border-radius: 10px;
-            
-            left: 0px;
-            right: 0px;
-            border-top: 10px;
-            background-color: rgb(96, 9, 125);
-    
-        }
-    .galery2::before{
-            content: '';
-            background-image: url("https://github.com/Mariachis-Arequipa/Guadalajara/blob/main/imagenes/mami.jpg?raw=true");
-            align-items: center;
-            background-repeat: no-repeat;
-            background-size:cover;
-            background-position: center;
-            position: absolute;
-            border-radius: 10px;
-            padding-top: 10px;
-            top: 10px;
-            left: 10px;
-            bottom: 10px;
-            right: 10px;
-            
-            
-            opacity: 0.60;
-        
-            }
-    .galery2 h2{
-        
-            font-size: 40px;
-            font-family: sans-serif;
-            text-align: end;
-            text-align: left;
-            position: relative;
-            color: aliceblue;
-            padding-left: 15px;
-            padding-right: 15px;
-            font: bold;
-            font: italic;
-                
-                
-        
-            }
-    .galery2 p{
-                font-size: 20px;
-                font-family: sans-serif;
-                align-items: flex-end;
-                bottom: 50px;
-                flex: auto;
-                position: absolute;
-                text-align: center;
-                padding-left: 15px;
-                padding-right: 15px;
-                font: bold;
-                
-                color: aliceblue;
-                
-            }
-        
-    .galery3{
-        min-height: 100vh;
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        position: relative;
-        border-radius: 10px;
-        
-        left: 0px;
-        right: 0px;
-        border-top: 10px;
-        background-color: rgb(10, 119, 134);
-
-    }
-    .galery3::before{
-        content: '';
-        background-image: url("https://github.com/Mariachis-Arequipa/Guadalajara/blob/main/imagenes/pedida_de_mano.jpeg?raw=true");
-        align-items: center;
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position: center;
-        position: absolute;
-        border-radius: 10px;
-        
-        top: 10px;
-        left: 10px;
-        bottom: 10px;
-        right: 10px;
-        
-        
-        opacity: 0.60;
-    
-        }
-     .galery3 h2{
-    
-        font-size: 40px;
-        font-family: sans-serif;
-        text-align: center;
-        text-align: left;
-        position: relative;
-        padding-left: 15px;
-        padding-right: 15px;
-        color: aliceblue;
-        font: bold;
-        font: italic;
-            
-            
-    
-        }
-    .galery3 p{
-            font-size: 20px;
-            font-family: sans-serif;
-            align-items: flex-end;
-            bottom: 50px;
-            flex: auto;
-            position: absolute;
-            text-align: center;
-            padding-left: 15px;
-            padding-right: 15px;
-            font: bold;
-            color:aliceblue;
-
-            
-        }
-    
-        
-    .galery4{
-            min-height: 100vh;
-            display: flex;
-            justify-content:center;
-            align-items:center;
-            position: relative;
-            border-radius: 10px;
-            
-            left: 0px;
-            right: 0px;
-            border-top: 10px;
-            background-color: rgb(185, 62, 17);
-    
-        }
-    .galery4::before{
-            content: '';
-            background-image: url("https://github.com/Mariachis-Arequipa/Guadalajara/blob/main/imagenes/quincea%C3%B1era9.jpg?raw=true");
-            align-items: center;
-            background-repeat: no-repeat;
-            background-size:cover;
-            background-position: center;
-            position: absolute;
-            border-radius: 10px;
-            
-            top: 10px;
-            left: 10px;
-            bottom: 10px;
-            right: 10px;
-            
-            
-            opacity: 0.60;
-        
-            }
-            .galery4 h2{
-    
-                font-size: 40px;
-                font-family: sans-serif;
-                text-align: center;
-                text-align: left;
-                position: relative;
-                padding-left: 15px;
-                padding-right: 15px;
-                color: aliceblue;
-                font: bold;
-                font: italic;
-                    
-                    
-            
-                }
-            .galery4 p{
-                    font-size: 20px;
-                    font-family: sans-serif;
-                    align-items: flex-end;
-                    bottom: 50px;
-                    flex: auto;
-                    position: absolute;
-                    text-align: center;
-                    padding-left: 15px;
-                    padding-right: 15px;
-                    font: bold;
-                    color:aliceblue;
-        
-                    
-                }
-            
-    .galery5{
-                min-height: 100vh;
-                display: flex;
-                justify-content:center;
-                align-items:center;
-                position: relative;
-                border-radius: 10px;
-                
-                left: 0px;
-                right: 0px;
-                border-top: 10px;
-                background-color: rgb(22, 51, 167);
-        
-            }
-    .galery5::before{
-        content: '';
-        background-image: url("https://github.com/Mariachis-Arequipa/Guadalajara/blob/main/imagenes/reconciliaciones.jpg?raw=true");
-        align-items: center;
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position: center;
-        position: absolute;
-        border-radius: 10px;
-                
-        top: 10px;
-        left: 10px;
-        bottom: 10px;
-        right: 10px;
-                
-                
-        opacity: 0.60;
-            
-        }
-        .galery5 h2{
-    
-            font-size: 40px;
-            font-family: sans-serif;
-            text-align: center;
-            text-align: left;
-            position: relative;
-            padding-left: 15px;
-            padding-right: 15px;
-            color: aliceblue;
-            font: bold;
-            font: italic;
-                
-                
-        
-            }
-        .galery5 p{
-                font-size: 20px;
-                font-family: sans-serif;
-                align-items: flex-end;
-                bottom: 50px;
-                flex: auto;
-                position: absolute;
-                text-align: center;
-                padding-left: 15px;
-                padding-right: 15px;
-                font: bold;
-                color:aliceblue;
-    
-                
-            }
-    .galery6{
-        min-height: 100vh;
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        position: relative;
-        border-radius: 10px;
-                    
-        left: 0px;
-        right: 0px;
-        border-top: 10px;
-        background-color: rgb(145, 102, 10);
-            
-        }
-    .galery6::before{
-        content: '';
-        background-image: url("https://github.com/Mariachis-Arequipa/Guadalajara/blob/main/imagenes/papa.jpeg?raw=true");
-        align-items: center;
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position: center;
-        position: absolute;
-        border-radius: 10px;
-                    
-        top: 10px;
-        left: 10px;
-        bottom: 10px;
-        right: 10px;
-                    
-                    
-        opacity: 0.60;
-                
-            }
-            .galery6 h2{
-    
-                font-size: 40px;
-                font-family: sans-serif;
-                text-align: center;
-                text-align: left;
-                position: relative;
-                padding-left: 15px;
-                padding-right: 15px;
-                color: aliceblue;
-                font: bold;
-                font: italic;
-                    
-                    
-            
-                }
-            .galery6 p{
-                    font-size: 20px;
-                    font-family: sans-serif;
-                    align-items: flex-end;
-                    bottom: 50px;
-                    flex: auto;
-                    position: absolute;
-                    text-align: center;
-                    padding-left: 15px;
-                    padding-right: 15px;
-                    font: bold;
-                    color:aliceblue;
-        
-                    
-                }
-
-
-    .galery7{
-        min-height: 100vh;
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        position: relative;
-        border-radius: 10px;
-            
-        left: 0px;
-        right: 0px;
-        border-top: 10px;
-        background-color: rgb(156, 11, 69);
-    
-    }
-    .galery7::before{
-        content: '';
-        background-image: url("https://github.com/Mariachis-Arequipa/Guadalajara/blob/main/imagenes/patronal.jpg?raw=true");
-        align-items: center;
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position: center;
-        position: absolute;
-        border-radius: 10px;
-            
-        top: 10px;
-        left: 10px;
-        bottom: 10px;
-        right: 10px;
-            
-            
-        opacity: 0.60;
-        
-            }
-            .galery7 h2{
-    
-                font-size: 40px;
-                font-family: sans-serif;
-                text-align: center;
-                text-align: left;
-                position: relative;
-                padding-left: 15px;
-                padding-right: 15px;
-                color: aliceblue;
-                font: bold;
-                font: italic;
-                    
-                    
-            
-                }
-            .galery7 p{
-                    font-size: 20px;
-                    font-family: sans-serif;
-                    align-items: flex-end;
-                    bottom: 50px;
-                    flex: auto;
-                    position: absolute;
-                    text-align: center;
-                    padding-left: 15px;
-                    padding-right: 15px;
-                    font: bold;
-                    color:aliceblue;
-        
-                    
-                }
-
-
-
-
-    
     .container_footer{
-
-        background-color:darkorchid;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        
-        
-    } 
+    
+            background-color:darkorchid;
+            padding-bottom: 20px;
+            padding-top: 20px;        
+        } 
     .container_footer p{
-
-        text-align: center;
-        color: aliceblue;
-    }
+    
+            text-align: center;
+            color: aliceblue;
+        }
     #arequipa{
-        padding-top: 10px;
-    }
-    
-    
+            padding-top: 10px;
+        }
 
 
     
@@ -723,170 +295,299 @@ header h1{
     /* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
 
 
-   
-    
-
-    
-    
-
 
 
  @media only screen and (min-width: 769px) {
 
    
-    header {
-        background-color: rgb(83, 223, 233);
-        height: 80px;
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: content-box;   
     }
+    
+    header{
+        background-color: rgba(208, 243, 16, 0.926);
+        height: 50px;
+        display: flex;
+        
+    }
+    
     header h1{
         font-family:'Lusitana', serif;
-        color: rgb(246, 246, 246);
+        color:rgb(145, 23, 175);
         text-align: left;
-        padding-top: 40px;
-        padding-left: 20px;
-        font-size: 35px;
+        padding-top: 25px;
+        padding-left: 7px;
+        font-size: 17px;
+        font: bolder;    
     }
- 
-   
     
-    .capa h2 {
-        
-        text-align: center;
-        font-family: 'Marck Script', cursive;
-        font-size: 130px;
-        color: #f47a08f0;
-        
-        
-    }
-    #p1{
-        text-align: center;
-        font-family: 'Marck Script', cursive;
-        font-size: 50px;
-        padding-top: 0px;
-        color: rgb(246, 246, 246); 
-        padding-bottom: 30px;
-
-    }  
-    img{
-     
-        display: block; margin: auto;
-        border-radius: 10px;
-        
-                
-        } 
-    section p{
-            font-size: 50px;
-            
-            text-align:center;
-            padding-bottom: 1px;
-            color: rgb(255, 255, 255);
-        
-        
-         }     
-    aside{
-        padding-top: 15px;
-        padding-bottom: 15px;
-        background-color: aquamarine;
-        text-align: center;
-        color: red;
-        font-size: 22px;
+    .contenedor {
+        position: relative;
         width: 100%;
-        /*float: right;
-        height: 610px;*/
-       }
-    
-    aside p{
-
-        padding-top: 10px;
+        height: 100vh;
+        overflow: hidden;
     }
     
-       #precio1{
-        text-align: center;
-        padding-top: 700px;
-        font-size: 80px;
-        padding-bottom: 80px;
-    
-       }
-    .contactos{
-
-        display: flex;
-        justify-content: center;
+    .contenedor img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
-
-       .contactos img{
-        display: block; margin: auto;
-        width: 300px;
-        height: 100px;
-        padding-bottom: 30px;
-        margin: 0px 50px;
-        
-        
     
-       }
-       .facebook{
-
-        
-        
+    .capa {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 255, 0.5); 
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-bottom: 20px;
-        padding-top: 20px;
-       
+        flex-direction: column;   
     }
-       .facebook a{
-        font-family: 'Lusitana', serif;
-        font-family: 'Marck Script', cursive;
-        font-family: 'Roboto', sans-serif;
     
-        text-align: center;
+    .capa #nombreMariachi {
         font-size: 90px;
-        color: aliceblue;
-        background-color: #134eceeb;
+        font-family: 'sans-serif'; 
         
-        border-radius: 50%;
-        text-decoration: none;
-        line-height: 110px;
-        box-shadow: 2px 2px 5px rgb(0,0, .5); 
-        
-       }
-        .contenedor2{
-    
-        background-color: coral;
-        padding-bottom: 40px;
-        }
-        .contenedor2 h2{
-    
-            font-size: 70px;
-            padding-bottom: 20px;
-            padding-top: 30px;
-        }
-        .contenedor2 img{
-            display: block; margin: auto;
-            width: 30%;
-            height: 30%; 
-                    
-        }
-        
-        
+        text-align: left;
+        top:50%;
+        position: relative;
+        color: rgb(250, 249, 251);
             
-        
-        .container_footer{
+    }
     
-            background-color:darkorchid;
+    .capa p{
+            font-size: 23px;
+            font-family: sans-serif;
+            align-items: flex-end;
+            bottom: 50px;
+            flex: auto;
+            position: absolute;
+            text-align: center;
+            
+            color: rgb(250, 249, 251);
+            
+        }
+    
+    .contactoAqp{
+        background-color: #fffded;
+    }
+    
+    #precio{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+        padding-bottom: 20px;
+        color: black;    
+       }
+    
+    .contactos{
+            width: 100%;
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             padding-bottom: 20px;
             padding-top: 20px;
+            justify-content: space-around;
+    }
+        
+    .llamar{
             
-            
-        } 
-        .container_footer p{
-    
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            padding-left: 0%;
+                   
+    }
+    .llamar a {
+                
             text-align: center;
+            font-size: 30px;
             color: aliceblue;
+            background-color: rgba(75, 206, 19, 0.922);
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            text-decoration: none;
+            line-height: 80px;
+            box-shadow: 2px 2px 5px rgb(0,0, .5); 
+            
+    }
+            
+    .whatsapp{
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            padding-right: 0px;
+            
         }
+    .whatsapp a {
+                   
+            font:bolder;
+            text-align: center;
+            font-size: 30px;
+            color: aliceblue;
+            background-color: rgba(104, 15, 173, 0.885);
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            text-decoration: none;
+            line-height: 50px;
+            
+            box-shadow: 2px 2px 5px rgb(0,0, .5); 
+            
+    }
+    .whatsapp p{
+            text-align: center;
+            font-size: 12px;
+            line-height: 45px;
+            padding-top: 1px;
+           }
+        
+    .facebook{
+                
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 40px;
+            padding-top: 20px;
+           
+    }
+    .facebook a{
+            font-family: 'Lusitana', serif;
+            font-family: 'Marck Script', cursive;
+            font-family: 'Roboto', sans-serif;
+        
+            text-align: center;
+            font-size: 60px;
+            color: aliceblue;
+            background-color: #134eceeb;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            text-decoration: none;
+            line-height: 80px;
+            box-shadow: 2px 2px 5px rgb(0,0, .5); 
+            
+    }
+       
+    .amenizamos{
+        background-color: orange;
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        
+    }
+    
+    #arequipa{
+        font-family:'Lusitana', serif;
+        font: bold;
+        color:rgb(255, 255, 255);
+        padding-top: 10px;
+        font-size: 29px;
+       }
+       
+        
+    .contenedor2{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden; 
+            border-style: solid;
+            margin-bottom: 0.5%;
+            border-radius: 2%;
+    }
+    .contenedor2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+    .capa2, .capa3, .capa4, .capa5, .capa6,.capa7,.capa8,.capa9 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            
+        }
+    
+        .capa2{
+                background-color: rgba(179, 24, 6, 0.5); 
+            }
+        .capa3{
+                background-color: rgba(111, 36, 108, 0.5); 
+            }
+        .capa4{
+                background-color: rgba(119, 12, 123, 0.5); 
+            }
+        .capa5{
+                background-color: rgba(45, 48, 193, 0.5); 
+            }
+        .capa6{
+                background-color: rgba(93, 104, 12, 0.5); 
+        }
+        .capa7{
+                background-color: rgba(173, 20, 190, 0.5); 
+        }
+        .capa8{
+                background-color: rgba(176, 93, 21, 0.5); 
+        }
+        .capa9{
+                background-color: rgba(203, 60, 17, 0.5); 
+        }
+    
+        .h2Comun  {
+            font-size: 30px;
+            font-family: 'sans-serif';  
+            text-align: center;
+            top:20%;
+            position: relative;
+            color: rgb(250, 249, 251);
+                
+        }
+    
+        .pComun{
+                font-size: 20px;
+                font-family: sans-serif;
+                align-items: flex-end;
+                bottom: 50px;
+                flex: auto;
+                position: absolute;
+                text-align: center;
+                color: rgb(250, 249, 251);
+                
+            }
+        .container_footer{
+        
+                background-color:darkorchid;
+                padding-bottom: 20px;
+                padding-top: 20px;        
+            } 
+        .container_footer p{
+        
+                text-align: center;
+                color: aliceblue;
+            }
         #arequipa{
-            padding-top: 10px;
-        }
+                padding-top: 10px;
+            }
 
 
  }
