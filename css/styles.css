@@ -22,54 +22,58 @@ header h1{
     font: bolder;    
 }
 
-.contenedor {
+.contenedor1{
     position: relative;
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
-.contenedor img {
+.contenedor1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
-.capa {
+.capa1{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 255, 0.5); 
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;   
+    flex-direction: column;
+    
+    
 }
 
-.capa #nombreMariachi {
-    font-size: 250%;
+.capa1{
+    background-color: rgba(7, 24, 148, 0.5); 
+}
+.nombreMariachi  {
+    font-size: 50px;
     font-family: 'sans-serif';  
     text-align: left;
-    top:45%;
+    top:20%;
     position: relative;
     color: rgb(250, 249, 251);
+    margin-bottom: 10px;
         
 }
 
-.capa p{
-        font-size: 23px;
-        font-family: sans-serif;
-        align-items: flex-end;
-        bottom: 50px;
-        flex: auto;
-        position: absolute;
-        text-align: center;
-        
-        color: rgb(250, 249, 251);
-        
-    }
+
+.eslogan{
+    font-size: 20px;
+    font-family: sans-serif;
+    align-items: flex-end;
+    bottom: 50px;
+    flex: auto;
+    position: absolute;
+    text-align: center;
+    color: rgb(250, 249, 251);
+    
+}
 
 .contactoAqp{
     background-color: #fffded;
@@ -222,6 +226,9 @@ header h1{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding-bottom: 20px;
         
         
     }
@@ -255,21 +262,26 @@ header h1{
         font-size: 40px;
         font-family: 'sans-serif';  
         text-align: center;
-        top:20%;
-        position: relative;
+        top:60%;
+        position: absolute;
         color: rgb(250, 249, 251);
+        margin-bottom: 10px;
+       
+        
             
     }
 
     .pComun{
-            font-size: 20px;
+            font-size: 22px;
             font-family: sans-serif;
             align-items: flex-end;
-            bottom: 50px;
+            top: 80%;
             flex: auto;
             position: absolute;
             text-align: center;
             color: rgb(250, 249, 251);
+            
+            
             
         }
     .container_footer{
