@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://mariachis-arequipa.github.io/Guadalajara/</loc>
+    <loc>https://mariachis-aqp.com/</loc>
     <image:image>
-      <image:loc>https://mariachis-arequipa.github.io/Guadalajara/imagenes/papa.webp</image:loc>
+      <image:loc>https://mariachis-aqp.com//imagenes/patronal.webp</image:loc>
       <image:title>Mariachis en Arequipa</image:title>
     </image:image>
   </url>
