@@ -1,3 +1,4 @@
 User-agent: *
+Disallow: /404.html
 Allow: /
 Sitemap: https://mariachis-aqp.com/sitemap.xml
